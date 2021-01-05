@@ -1,21 +1,24 @@
 # solidity
-cmd > ganache-cli
-cmd > truffle init
-cmd > npm init -y
-cmd > npm install @openzeppelin/contract
 
-vscode > contracts > new file "coinname.sol"
-vscode > migrations > new file "2_deploy_coinname.js"
-vscode > truffle-config > "development&version"
 
-cmd > truffle migrate --reset
+About Library Versions and Deployment Environments
 
-vscode > test > .secert(Mnemonic Key)
-vscdoe > truffle-config.js > "network&const"
+cmd > ganache-cli </br>
+cmd > truffle init </br>
+cmd > npm init -y </br>
+cmd > npm install @openzeppelin/contract </br>
 
-cmd > cd d1 > npm install @truffle/hdwallet-provider
--- error : https://git-scm.com/download/win install
-cmd > truffle migrate --network ropsten
+vscode > contracts > new file "coinname.sol" </br>
+vscode > migrations > new file "2_deploy_coinname.js" </br>
+vscode > truffle-config > "development&version" </br>
+
+cmd > truffle migrate --reset </br>
+
+vscode > test > .secert(Mnemonic Key) </br>
+vscdoe > truffle-config.js > "network&const" </br>
+
+cmd > cd d1 > npm install @truffle/hdwallet-provider </br>
+-- error : https://git-scm.com/download/win install </br>
+cmd > truffle migrate --network ropsten </br>
 
 -- by Johnny 2021.01.05
-About Library Versions and Deployment Environments
